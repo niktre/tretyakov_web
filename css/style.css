@@ -793,9 +793,30 @@
 			opacity: .4;
 		}
 
-		#footer .copyright {
-			margin-top: 3em;
+		#footer .impressum {
+			margin-top: 2em;
 			text-align: center;
+		}
+
+		#footer .copyright {
+			margin-top: 2em;
+			text-align: center;
+		}
+
+/* Impressum */
+
+	#impressum {
+		position: relative;
+/*		text-transform: uppercase;*/
+		text-align: center;
+		padding: 1em 0em 0.5em 0em;
+		color: white;
+		opacity: .50;
+	}
+
+		#impressum a {
+			text-decoration: none;
+			color: inherit;
 		}
 
 /* Copyright */
@@ -804,9 +825,9 @@
 		position: relative;
 		text-transform: uppercase;
 		text-align: center;
-		padding: 3em 0em 3em 0em;
+		padding: 0.5em 0em 1em 0em;
 		color: inherit;
-		opacity: .40;
+		opacity: 1.0;
 	}
 
 		#copyright a {
